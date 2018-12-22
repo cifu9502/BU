@@ -1,0 +1,111 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[12pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\usepackage{indentfirst}
+\setlength{\parindent}{1.5cm}
+% moderncv themes
+\moderncvstyle{casual}    
+% \usepackage{hyperref}
+% style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+\usepackage{ragged2e}
+% character encoding
+\usepackage[utf8]{inputenc}           
+% \usepackage{hyperref}
+% \usepackage{hyperref}
+% \hypersetup{
+%     colorlinks,%
+%     citecolor=blue,%
+%     linkcolor=blue,%
+%     urlcolor=blue
+% }
+% if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Jes\'us David}{Cifuentes Pardo}
+%\title{Resumé title}                               % optional, remove / comment the line if not wanted
+%\address{street and number}{postcode city}{country}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+%\phone[mobile]{+1~(234)~567~890}                   % optional, remove / comment the line if not wanted
+%\phone[fixed]{+2~(345)~678~901}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+%\email{john@doe.org}                               % optional, remove / comment the line if not wanted
+%\homepage{www.johndoe.com}                         % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+\renewcommand\refname{References}
+% bibliography with mutiple entries
+\usepackage{multibib}
+\usepackage{cite}
+\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+
+
+\begin{document}
+%-----       letter       ---------------------------------------------------------
+% recipient data
+%\recipient{Company Recruitment team}{Company, Inc.\\123 somestreet\\some city}
+\date{December 01, 2018}
+\opening{Dear Admission Committee,}
+\closing{Thank you for your consideration,}
+%\enclosure[Attached]{curriculum vit\ae{}}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+
+\makelettertitle
+
+\justify
+“Factoring large numbers is tough!”. I have heard that many times. But I remember very well the first time I did. I was training for the math olympiads in high school. It was a number theory lecture, and we were learning about Fermat’s theorem.  “The best computer could attempt it for years without any chance of success”. It was really surprising for me. I learned to factor numbers in middle school, how could it be so hard? My math olympiads years left me many more memories and lessons, and I was very fortunate to participate in the International Mathematical Olympiad in Amsterdam. But that single phrase really got stuck in my head. Many years later, I found out that a quantum algorithm could factorize large numbers in a reasonable amount of time. And just like that, one of my childhood beliefs was shattered. I had to learn about this algorithm!.
+
+By that time I was in the middle of my undergraduate studies in Physics and Mathematics at Universidad de Los Andes, the most prominent university in Colombia. The following years, quantum computing became my greatest interest. I started with Nielsen and Chuang’s book, reading about quantum algorithms and quantum information. Enrolling in seminars and congresses on the topic, I even got to understand Shor’s algorithm. Eventually, I had a breakthrough. It was in a fascinating lecture by Andrei Bernevig at my university where he presented a solution to one of the biggest challenges in quantum computing: high-decoherence. To address it, he proposed using Majorana quasiparticles appearing at the edges of topological superconductors. It was brilliant. Somehow topology seemed to trivially fix the decoherence-problem. Then they just needed to braid these Majoranas to encode the information and create quantum algorithms. Eureka!
+
+This nice idea receives the name of topological quantum computing. I spent the rest of my undergraduate researching this field and wrote two theses projects. While my thesis in physics was centered on the main problems around Majorana fermions and topological materials, in my mathematics thesis I used an algebraic approach to understand topological quantum algorithms .These two projects boosted my abilities by solving numerical problems, using advanced mathematical tools, and then applying them to physics. Furthermore, the combination of approaches gave me a more comprehensive background on the topic. In particular, I learned that this “braiding” process was far more difficult than it seemed in Bernevig's lectures. But still, the idea was beautiful, the experiments were promising, the field was hot, and it was applicable to quantum computing. I was really looking forward to continue working on this topic. I found that opportunity at the University of São Paulo, consistently ranked as the best university in Latin America. 
+
+During the last two years, I have been in São Paulo pursuing a thesis-based masters degree.  My advisor is Prof. Luis Gregorio Dias from the Condensed Matter Department. Under his supervision, I have worked on a project inspired on the idea of coupling Majorana fermions with quantum dots. My intention is to explore the manipulability of Majorana fermions in a double-dot system. The last few months have been full of excitement as the simulations started to reveal some intriguing results. In turn, embarking me on the task of creating a theoretical model to explain these phenomena. It was difficult. The model was complex and quite entangled, but after months of hard work, I finally created an algorithm by borrowing some tools from computer science. This turned out to be a clever solution to the problem that can be applied to more general systems. Moreover, the model matched very well with the simulations, hence completing my project. Right now I am writing a paper presenting these results. I expect to send it for publication in the following months. 
+
+Aside from this research project, these years in Brazil have been an enriching experience. I have learned Portuguese and gotten a fantastic cultural exchange. In the academic field, I took advantage of the large condensed matter community in the country to participate in conferences, present my advances, and increase my knowledge of topological materials and quantum computing. These activities, paired with many hours of individual preparation, allowed me to improve my communication skills including my writings, computer designs, and presentations. I am using these skills right now while writing the paper, and I intend to use them at UBC in my future papers, classes and conferences. Finally, this masters greatly enhanced my numerical skills as a result of my research project, and the additional training on machine learning, tensor networks, and NRG algorithms. 
+
+During this long path, I always kept track of the state of the art in quantum computing. The clear resolution of Canadian institutions to potentiate quantum computing really motivated me to apply to Canada. In particular, I was very impressed by the wide research line of UBC in this field. It includes both topological and silicon-based approaches, and takes into account several levels from basic quantum hardware, to software and applications. The possibility of collaborating with D-wave, 1Qbit, and the Simon Fraser’s silicon quantum lab is also very exciting. All of these opportunities make Vancouver one of the best cities to do quantum research. I am confident that in this environment I will rapidly find a place where I could exploit my abilities and continue contributing to this area. In fact, there are many professors at UBC I am interested in working with, such as Professors Robert Raussendorf, Philip Stamp and  Marcel Franz from the physics department. In addition, professors Konrad Walus and Joe Salfi from the Department of  Electrical Engineering are also very close to my interests.  My objective for the first year in the masters program is to establish a connection with one of them in order to join the Ph.D. program in 2020. I am sure that after a Ph.D. at UBC I will be fully prepared to research in quantum computing at any top-level institution in both academia and industry.
+
+My relatives and close friends tell me that Vancouver is a spectacular city. I hope to experience it myself and join the huge race to build a quantum computer.
+
+Thank you for your consideration, 
+
+\vspace{0.7cm}
+
+\textbf{Jesús David Cifuentes Pardo}
+
+%\makeletterclosing
+
+
+
+\include{research}
+\include{goals}
+\bibliographystyle{unsrt}
+\bibliography{Majorana_DQD}
+
+
+\end{document}
+
+
+%% end of file `template.tex'.
