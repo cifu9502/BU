@@ -1,0 +1,142 @@
+\begin{thebibliography}{10}
+
+\bibitem{kitaev_unpaired_2001}
+A.~Yu Kitaev.
+\newblock Unpaired {Majorana} fermions in quantum wires.
+\newblock {\em Physics-Uspekhi}, 44(10S):131, 2001.
+
+\bibitem{alicea_majorana_2010}
+Jason Alicea.
+\newblock Majorana fermions in a tunable semiconductor device.
+\newblock {\em Physical Review B}, 81(12):125318, March 2010.
+
+\bibitem{alicea_new_2012}
+Jason Alicea.
+\newblock New directions in the pursuit of {Majorana} fermions in solid state
+  systems.
+\newblock {\em Reports on Progress in Physics}, 75(7):076501, 2012.
+
+\bibitem{sarma_majorana_2015}
+Sankar~Das Sarma, Michael Freedman, and Chetan Nayak.
+\newblock Majorana zero modes and topological quantum computation.
+\newblock {\em npj Quantum Information}, 1:15001, October 2015.
+
+\bibitem{lutchyn_majorana_2010}
+Roman~M. Lutchyn, Jay~D. Sau, and S.~Das~Sarma.
+\newblock Majorana {Fermions} and a {Topological} {Phase} {Transition} in
+  {Semiconductor}-{Superconductor} {Heterostructures}.
+\newblock {\em Physical Review Letters}, 105(7):077001, August 2010.
+
+\bibitem{mourik_signatures_2012}
+V.~Mourik, K.~Zuo, S.~M. Frolov, S.~R. Plissard, E.~P. a.~M. Bakkers, and L.~P.
+  Kouwenhoven.
+\newblock Signatures of {Majorana} {Fermions} in {Hybrid}
+  {Superconductor}-{Semiconductor} {Nanowire} {Devices}.
+\newblock {\em Science}, 336(6084):1003--1007, May 2012.
+
+\bibitem{das_zero-bias_2012}
+Anindya Das, Yuval Ronen, Yonatan Most, Yuval Oreg, Moty Heiblum, and Hadas
+  Shtrikman.
+\newblock Zero-bias peaks and splitting in an {Al}-{InAs} nanowire topological
+  superconductor as a signature of {Majorana} fermions.
+\newblock {\em Nature Physics}, 8(12):887, December 2012.
+
+\bibitem{deng_anomalous_2012}
+M.~T. Deng, C.~L. Yu, G.~Y. Huang, M.~Larsson, P.~Caroff, and H.~Q. Xu.
+\newblock Anomalous {Zero}-{Bias} {Conductance} {Peak} in a {Nb}-{InSb}
+  {Nanowire}-{Nb} {Hybrid} {Device}.
+\newblock {\em Nano Letters}, 12(12):6414--6419, December 2012.
+
+\bibitem{zhang_quantized_2018}
+Hao Zhang, Chun-Xiao Liu, Sasa Gazibegovic, Di~Xu, John~A. Logan, Guanzhong
+  Wang, Nick van Loo, Jouri D.~S. Bommer, Michiel W.~A. de~Moor, Diana Car, and
+  Roy L.~M. Op~het Veld.
+\newblock Quantized {Majorana} conductance.
+\newblock {\em Nature}, 556:74, March 2018.
+
+\bibitem{liu_detecting_2011}
+Dong~E. Liu and Harold~U. Baranger.
+\newblock Detecting a {Majorana}-{Fermion} {Zero} {Mode} {Using} a {Quantum}
+  {Dot}.
+\newblock {\em Physical Review B}, 84(20), November 2011.
+\newblock arXiv: 1107.4338.
+
+\bibitem{vernek_subtle_2014}
+E.~Vernek, P.~H. Penteado, A.~C. Seridonio, and J.~C. Egues.
+\newblock Subtle leakage of a {Majorana} mode into a quantum dot.
+\newblock {\em Physical Review B}, 89(16):165314, April 2014.
+
+\bibitem{ruiz-tijerina_interaction_2015}
+David~A. Ruiz-Tijerina, E.~Vernek, Luis G. G.~V. Dias~da Silva, and J.~C.
+  Egues.
+\newblock Interaction effects on a {Majorana} zero mode leaking into a quantum
+  dot.
+\newblock {\em Physical Review B}, 91(11):115435, March 2015.
+
+\bibitem{lee_kondo_2013}
+Minchul Lee, Jong~Soo Lim, and Rosa Lopez.
+\newblock Kondo effect in a quantum dot side-coupled to a topological
+  superconductor.
+\newblock {\em Physical Review B}, 87(24):241402, June 2013.
+
+\bibitem{deng_majorana_2016}
+M.~T. Deng, S.~Vaitiekenas, E.~B. Hansen, J.~Danon, M.~Leijnse, K.~Flensberg,
+  J.~Nygard, P.~Krogstrup, and C.~M. Marcus.
+\newblock Majorana bound state in a coupled quantum-dot hybrid-nanowire system.
+\newblock {\em Science}, 354(6319):1557--1562, December 2016.
+
+\bibitem{karzig_scalable_2017}
+Torsten Karzig, Christina Knapp, Roman~M. Lutchyn, Parsa Bonderson, Matthew~B.
+  Hastings, Chetan Nayak, Jason Alicea, Karsten Flensberg, Stephan Plugge,
+  Yuval Oreg, Charles~M. Marcus, and Michael~H. Freedman.
+\newblock Scalable designs for quasiparticle-poisoning-protected topological
+  quantum computation with {Majorana} zero modes.
+\newblock {\em Physical Review B}, 95(23):235305, June 2017.
+
+\bibitem{zubarev_double-time_1960}
+D.~N. Zubarev.
+\newblock {Double}-{time} {green} {functions} {in} {statistical} {physics}.
+\newblock {\em Soviet Physics Uspekhi}, 3(3):320, 1960.
+
+\bibitem{wilson_renormalization_1975}
+Kenneth~G. Wilson.
+\newblock The renormalization group: {Critical} phenomena and the {Kondo}
+  problem.
+\newblock {\em Reviews of Modern Physics}, 47(4):773--840, October 1975.
+
+\bibitem{krishna-murthy_renormalization-group_1980}
+H.~R. Krishna-murthy, J.~W. Wilkins, and K.~G. Wilson.
+\newblock Renormalization-group approach to the {Anderson} model of dilute
+  magnetic alloys. 1. {Static} properties for the symmetric case.
+\newblock {\em Phys.Rev.}, B21:1003--1043, 1980.
+
+\bibitem{bimberg_quantum_1999}
+Dieter Bimberg, Marius Grundmann, and Nikolai~N. Ledentsov.
+\newblock {\em Quantum {Dot} {Heterostructures}}.
+\newblock Wiley, Chichester, Eng.; New York, 1 edition, March 1999.
+
+\bibitem{spielman_algorithms_2010}
+Daniel~A. Spielman.
+\newblock {\em Algorithms, {Graph} {Theory}, and {Linear} {Equations} in
+  {Laplacian} {Matrices}}.
+\newblock Proceedings of the {International} {Congress} of {Mathematicians}.
+  2010.
+
+\bibitem{hewson_kondo_1997}
+Alexander~Cyril Hewson.
+\newblock {\em The {Kondo} {Problem} to {Heavy} {Fermions}}.
+\newblock Cambridge University Press, April 1997.
+\newblock Google-Books-ID: fPzgHneNFDAC.
+
+\bibitem{onsager_crystal_1944}
+Lars Onsager.
+\newblock Crystal {Statistics}. {I}. {A} {Two}-{Dimensional} {Model} with an
+  {Order}-{Disorder} {Transition}.
+\newblock {\em Physical Review}, 65(3-4):117--149, February 1944.
+
+\bibitem{yosida_magnetic_1957}
+Kei Yosida.
+\newblock Magnetic {Properties} of {Cu}-{Mn} {Alloys}.
+\newblock {\em Physical Review}, 106(5):893--898, June 1957.
+
+\end{thebibliography}
